@@ -1,0 +1,9 @@
+CMD 1 
+-cd D:\NAMAN\Spendwise 2\Spendwise\backend
+
+ .venv\Scripts\activate
+ uvicorn app.main:app --reload
+
+CMD 2
+-cd D:\NAMAN\Spendwise 2\Spendwise\frontend
+ npm run dev
